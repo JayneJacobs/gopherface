@@ -13,7 +13,7 @@ import (
 
 	"github.com/gopherjs/gopherjs/js"
 
-	"go.isomorphicgo.org/go/isokit"
+	"go.go.org/go/isokit"
 )
 
 const ENTERKEY int = 13

@@ -17,7 +17,7 @@ import (
 
 	"github.com/gopherjs/gopherjs/js"
 
-	"go.isomorphicgo.org/go/isokit"
+	"go.go.org/go/isokit"
 )
 
 var postForm *forms.SocialMediaPostForm

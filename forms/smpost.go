@@ -3,7 +3,7 @@ package forms
 import (
 	"github.com/JayneJacobs/gopherface/models/socialmedia"
 
-	"go.isomorphicgo.org/go/isokit"
+	"go.go.org/go/isokit"
 )
 
 type SocialMediaPostForm struct {

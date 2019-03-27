@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.11.5-alpine3.9
 MAINTAINER Jayne Jacobs jaynejacobs@jaynejacobs.com
 
 # Declare required environment variables
@@ -13,10 +13,10 @@ RUN go get -u honnef.co/go/js/dom
 RUN go get -u -d -tags=js github.com/gopherjs/jsbuiltin
 RUN go get -u honnef.co/go/js/xhr
 RUN go get -u github.com/gopherjs/websocket
-RUN go get -u go.isomorphicgo.org/go/isokit 
+RUN go get -u go.go.org/go/isokit 
 RUN go get -u github.com/tdewolff/minify@v2.3.4
 RUN go get -u github.com/JayneJacobs/gopherface
-RUN go get -u go.isomorphicgo.org/uxtoolkit/cog
+RUN go get -u go.go.org/uxtoolkit/cog
 RUN go get  /go/src/github.com/tdewolff/parse@v2.3.6
 
 

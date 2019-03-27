@@ -7,7 +7,7 @@ import (
 	"github.com/JayneJacobs/gopherface/common"
 
 	"github.com/gorilla/mux"
-	"go.isomorphicgo.org/go/isokit"
+	"go.go.org/go/isokit"
 )
 
 func ProfileHandler(env *common.Env) http.HandlerFunc {

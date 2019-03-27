@@ -10,7 +10,7 @@ import (
 	"github.com/JayneJacobs/gopherface/handlers"
 	"github.com/JayneJacobs/gopherface/middleware"
 
-	"go.isomorphicgo.org/go/isokit"
+	"go.go.org/go/isokit"
 
 	"net/http"
 
